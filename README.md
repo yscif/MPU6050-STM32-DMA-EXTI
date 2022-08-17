@@ -17,6 +17,7 @@ The process is automatically repeated every time the sensor generates new data (
 ***
 Madgwick Orientation Filter & Fast inverse sqrt for madgwick filter is taken from https://github.com/nickrehm/dRehmFlight.
 Thanks for nickrehm
+***
 
 
 CubeMX settings:
