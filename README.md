@@ -19,7 +19,7 @@ The process is automatically repeated every time the sensor generates new data (
 Since all the data produced by the sensor is processed by the orientation algorithm, in theory the best yaw pitch and roll values that can be obtained from this sensor are obtained.
 ***
 
-*Madgwick Orientation Filter & Fast inverse sqrt for madgwick filter is taken from https://github.com/nickrehm/dRehmFlight.
+Madgwick Orientation Filter & Fast inverse sqrt for madgwick filter is taken from https://github.com/nickrehm/dRehmFlight.
 Thanks for nickrehm
 ***
 
