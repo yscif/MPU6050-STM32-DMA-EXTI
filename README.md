@@ -5,3 +5,11 @@ This repository aims to keep the efficiency at the highest level by giving the w
 
 
 Madgwick Orientation Filter & Fast inverse sqrt for madgwick filter is taken from https://github.com/nickrehm/dRehmFlight.
+
+![image](https://user-images.githubusercontent.com/46872345/185007435-a8fb399f-57a0-4f41-9ded-d58873d16ab7.png)
+
+![image](https://user-images.githubusercontent.com/46872345/185007529-cc45e033-06ba-4f4b-8734-67b6365c1f24.png)
+
+![image](https://user-images.githubusercontent.com/46872345/185007616-bda04e12-21f0-45b5-969c-24e972678c14.png)
+
+![image](https://user-images.githubusercontent.com/46872345/185007690-9a96c3e7-6601-4af9-a40a-ca5d41a3ced0.png)
