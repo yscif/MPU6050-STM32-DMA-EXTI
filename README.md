@@ -3,7 +3,7 @@ MPU6050 DMA &amp; EXTI HAL library  real time orientation with Madgwick Orientat
 
 This repository aims to keep the efficiency at the highest level by giving the workload to all possible hardware in order to achieve maximum performance with minimum code and processing power in STM32 microcontrollers of the MPU6050 sensor.
 
-General operation:
+General operation:\n
 The sensor takes samples every 5ms (200Hz) and generates new Accel and Gyro data using the internal DLPF
 Sends interrupt signal from external interrupt pin as soon as data is generated
 STM32 detects external interrupt and sets up dma to receive data from i2c non-blocking
