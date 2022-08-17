@@ -16,6 +16,10 @@ When the DMA reading is complete, the received data is scaled, then the orientat
 The process is automatically repeated every time the sensor generates new data (every 5ms).
 ***
 Madgwick Orientation Filter & Fast inverse sqrt for madgwick filter is taken from https://github.com/nickrehm/dRehmFlight.
+Thanks for nickrehm
+
+
+CubeMX settings:
 
 ![image](https://user-images.githubusercontent.com/46872345/185007435-a8fb399f-57a0-4f41-9ded-d58873d16ab7.png)
 
