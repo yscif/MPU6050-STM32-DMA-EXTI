@@ -9,12 +9,16 @@ The sensor takes samples every 5ms (200Hz) and generates new Accel and Gyro data
 
 Sends interrupt signal from external interrupt pin as soon as data is generated
 
-STM32 detects external interrupt and sets up dma to receive data from i2c non-blocking
+STM32 detects external interrupt and sets up DMA to receive data from i2c non-blocking
 
 When the DMA reading is complete, the received data is scaled, then the orientation is calculated by applying the Madgwick Orientation or Complementary Filter.
 
 The process is automatically repeated every time the sensor generates new data (every 5ms).
 ***
+
+Since all the data produced by the sensor is processed by the orientation algorithm, in theory the best yaw pitch and roll values that can be obtained from this sensor are obtained.
+
+**
 Madgwick Orientation Filter & Fast inverse sqrt for madgwick filter is taken from https://github.com/nickrehm/dRehmFlight.
 Thanks for nickrehm
 ***
