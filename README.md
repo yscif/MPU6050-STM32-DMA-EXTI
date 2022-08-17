@@ -1,4 +1,4 @@
-# MPU6050-STM32-DMA-EXTI
+# MPU6050-STM32-DMA-EXTI with HAL lib
 MPU6050 DMA &amp; EXTI with HAL library. Real time orientation with Madgwick Orientation &amp; Complementary Filter
 
 This repository aims to keep the efficiency at the highest level by giving the workload to all possible hardware in order to achieve maximum performance with minimum code and processing power in STM32 microcontrollers of the MPU6050 sensor.
